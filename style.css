@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:1000px;
+    background: #000000;
+  
+}
+
+.box{  
+
+   
+    height:10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgb(48, 247, 220) 0%, rgb(22, 211, 53) 35%, rgb(34, 54, 231) 100%);
+    
+}
+.box .box_2{
+   
+    
+    color: #fff;
+    font-size: 50px ;
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+
+
